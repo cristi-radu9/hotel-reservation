@@ -22,14 +22,18 @@ cd hotel-reservation
 ```
 
 2. Build and run the application:
+```bash
 dotnet build
 dotnet run -- --hotels hotels.json --bookings bookings.json
+```
 
 3. Example console commands after running the app:
+```bash
 Availability(H1, 20240901, SGL)
 Availability(H1, 20240901-20240903, DBL)
 RoomTypes(H1, 20240904, 3)
 RoomTypes(H1, 20240905-20240907, 5)
+```
 
 
 4. To run the unit tests:
